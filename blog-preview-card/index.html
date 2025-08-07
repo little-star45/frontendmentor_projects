@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="public/assets/images/favicon-32x32.png">
+  <link href="styles/main.css" rel="stylesheet">
+  <title>Frontend Mentor | Blog preview card</title>
+</head>
+
+<body class="flex flex-col justify-center items-center w-full h-screen bg-customYellow">
+  <h1 class="sr-only"> Blog preview card </h1>
+  <main class="w-[327px] sm:w-[384px]  flex flex-col border-1 rounded-xl custom-box-shadow bg-white items-center overflow-hidden p-[24px] mx-[12px]">
+    <img class="w-fit h-[200px] rounded-lg" src="public/assets/images/illustration-article.svg" alt="beans laying on the yellow notebook"/>
+    <div class="w-full h-fit">
+        <section>
+          <div class="bg-customYellow w-fit px-[12px] py-[4px] mt-[24px] rounded-md text-customGray-950 text-preset-3-bold mb-[12px]">Learning</div>
+
+          <p class="text-customGray-950 text-preset-3 mb-[16px]">Published 21 Dec 2023</p>
+          <h2 class="text-customGray-950 hover:text-customYellow hover:cursor-pointer text-[20px] sm:text-[24px] text-preset-1 mb-[16px]">HTML & CSS foundations</h2>
+          <article class="text-customGray-500 text-preset-2 mb-[16px]">These languages are the backbone of every website, defining structure, content, and presentation.</article>
+      </section>
+      <footer class="w-full flex flex-row items-center">
+        <img class="mr-[16px]" width="32" height="32" src="public/assets/images/image-avatar.webp" alt="avatar of article author Greg Hooper"/>
+        <p class="text-customGray-950 text-preset-3-bold">Greg Hooper</p>
+      </footer>
+    </div>
+  </main>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
